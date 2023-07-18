@@ -9,7 +9,7 @@ const app = Vue.createApp({
     },
     computed: {
         getNumberResult() {
-            return this.number > 5 ? "SAYI BÜYÜK" : "SAYI KÜÇÜK";
+            return "Sayaç değerinin karesi = " + this.number* this.number;
         }
     }
 }).mount("#app");
